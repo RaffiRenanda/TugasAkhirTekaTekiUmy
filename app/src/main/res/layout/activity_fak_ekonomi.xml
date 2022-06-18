@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#320808"
+    tools:context=".FakEkonomi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/soal1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#B8B8B8"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. Siapakah kaprodi dari prodi Managment?"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radioButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Isthofaina Astuty"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dyah Ekaari Sekar"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Endah Saptutyningsih"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ramadoni Syahputra"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/soal2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2. Gedung FEB berada di kampus bagian?"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radioButton5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Timur"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Utara"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Barat"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Selatan"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/soal3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#B8B8B8"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3. Apa kepanjangan dari FEB"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radioButton9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fakultas Ekonomi Bisnis"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fakultas Economy Bisnis"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Faculty of Business Economics"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fakultas Ekonomi dan Bisnis"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/soal4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4. Gedung FEB juga dikenal dengan sebutan gedung?"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radioButton13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="F1"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="F2"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="H4"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ki Bagus Hadikusumo"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/soal5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#B8B8B8"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5. Gedung FEB didirikan tahun?"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radioButton17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="1411 H"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="1401 H"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="1402 H"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="1400 H"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <Button
+                android:id="@+id/buttonSimpanNilai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="Submit"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnHapus"
+        android:title="Hapus History" />
+    <item
+        android:id="@+id/mnRemid"
+        android:title="Remidi" />
+</menu>
